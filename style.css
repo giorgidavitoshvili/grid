@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+}
+h2{
+    color: white;
+}
+.display{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 18%;
+}
+.grid{
+    display:grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-auto-rows: 150px;
+    grid-gap: 20px;
+}
+.box1{
+    background-color: white;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    text-align: center;
+}
+.box1 p{
+    color: blue;
+    padding-top: 60%;
+}
+.box2{
+    background-color: white;
+    text-align: center;
+}
+.box2 p{
+    color: blue;
+    padding-top: 25%;
+}
+.box3{
+    background-color: white;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    text-align: center;
+}
+.box3 p{
+    color: blue;
+    padding-top: 13%;
+}
+.box4{
+    background-color: white;
+    text-align: center;
+}
+.box4 p{
+    color: blue;
+    padding-top: 25%;
+}
+.box5{
+    background-color: white;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    text-align: center;
+}
+.box5 p{
+    color: blue;
+    padding-top: 60%;
+}
+.box6{
+    background-color: white;
+    text-align: center;
+}
+.box6 p{
+    color: blue;
+    padding-top: 30%;
+}
+.box7{
+    background-color: white;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    text-align: center;
+
+}
+.box7 p{
+    color: blue;
+    padding-top: 60%;
+}
+.box8{
+    background-color: white;
+    text-align: center;
+}
+.box8 p{
+    color: blue;
+    padding-top: 30%;
+}
+.box9{
+    background-color: white;
+    text-align: center;
+}
+.box9 p{
+    color: blue;
+    padding-top: 30%;
+}
+.box10{
+    background-color: white;
+    text-align: center;
+}
+.box10 p{
+    color: blue;
+    padding-top: 30%;
+}
+.box11{
+    background-color: white;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    text-align: center;
+}
+.box11 p{
+    color: blue;
+    padding-top: 15%;
+}
